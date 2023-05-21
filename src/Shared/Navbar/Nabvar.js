@@ -7,7 +7,8 @@ const Nabvar = () => {
     <li className='font-semibold'><Link to='/login'>Login</Link></li>
 </>
     return (
-        <div className="navbar h-20 mb-12 pt-12 bg-base-100">
+        
+             <div className="navbar h-20 mb-12 pt-12  bg-base-100">
         <div className="navbar-start">
             <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,12 +26,17 @@ const Nabvar = () => {
             <ul className="menu menu-horizontal p-0">
                 {menuItems}
             </ul>
+
+
+
+          
         </div>
-        <div className="navbar-end">
-        <button className="btn btn-outline btn-warning">Appointment</button>
+        <div className="navbar-end ">
+        <button className="btn btn-outline btn-warning ">Appointment</button>
         </div>
-    </div>
+         </div>
     );
+       
 };
 
 export default Nabvar;
